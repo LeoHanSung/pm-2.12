@@ -34,7 +34,7 @@ for n in nulldate :
 kk.dropna()
 kk = kk.reset_index(drop=True)
 
-ee = pd.read_excel('pm10_all4.xlsx')
+ee = pd.read_excel('pm10_all6.xlsx')
 for n in nulldate :
     ee = ee.drop(n)
 ee = ee.reset_index(drop=True)
