@@ -23,7 +23,7 @@ aa2 = list(kk['Date'])
 dic = dict(zip(aa1,aa2))
 
 nulldate = []
-for ind, dat in dic.items(): #mydict에 아이템을 하나씩 접근해서, key, value를 각각 name, age에 저장
+for ind, dat in dic.items(): # 딕셔너리 아이템 하나씩 접근해서, key, value를 각각 idx, dat에 저장
     if dat in ddd:
         print(ind)
         nulldate.append(ind)
